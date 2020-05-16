@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content %}
+{% for post in posts.items  %}
+<div class="container" align="center">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">{{post.title}}
+    </h1>
+
+    <!-- Project One -->
+    <div class="col-md-10">
+
+        <img class="img-fluid rounded mb-3 mb-md-0" src="{{ url_for('static',filename='post_pics/' + post.theme) }}"
+             alt="">
+        </a>
+    </div>
+    <br>
+    <div class="col-md-6">
+
+        <img class="rounded-circle article-img"
+             src="{{ url_for('static',filename='profile_pics/' + post.author.image_file) }}">
+        <h5>By <a href="{{url_for('user_posts',username=post.author.username) }}"> {{post.author.username }}</a> on
+            {{post.date_posted.strftime('%Y-%m-%d') }}</h5>
+        <p>
+            {% if post.content|length > 125 %}
+            {{ post.content[0:125] }}<b>...</b>
+            {% else %}
+            {{post.content}}
+            {% endif %}
+        </p>
+        <a class="btn btn-primary" href="{{ url_for('post',post_id=post.id) }}">View Post</a>
+    </div>
+
+
+</div>
+
+
+<!--<h2>{{post.title}}</h2>
+<p> By {{post.author}} on {{post.date_posted}} </p>
+<p> {{post.content}} </p>-->
+{% endfor %}
+{% for page_num in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+{% if page_num %}
+{% if posts.page == page_num %}
+<a class="btn btn-outline-info mb-4" href="{{ url_for('home',page=page_num) }}">{{ page_num }}</a>
+{% else %}
+<a class="btn btn-outline-info mb-4" href="{{ url_for('home',page=page_num) }}">{{ page_num }}</a>
+{% endif %}
+{% else %}
+
+...
+{% endif  %}
+{% endfor %}
+{% endblock content %}
