@@ -20,33 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="1st commit">
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker-1.4-py3.8.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker-1.4-py3.8.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker-1.4-py3.8.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker-1.4-py3.8.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker-1.4-py3.8.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker/_saferef.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker/_utilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/blinker/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/0ad7809602d97086.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/templates/reset_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/templates/reset_token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/897d886a849785bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/8d5671f512f40005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/profile_pics/7898c83d174c501b.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/route.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/route.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/venv/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/user_posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +127,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
