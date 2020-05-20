@@ -36,11 +36,12 @@ def create_app(config_class=Config):
     from venv.User.routes import users
     from venv.Post.routes import posts
     from venv.Main.routes import main
+    from venv.Errors.handlers import errors
 
     app.register_blueprint(users)
     app.register_blueprint(posts)
     app.register_blueprint(main)
-
+    app.register_blueprint(errors)
     return app
 
 

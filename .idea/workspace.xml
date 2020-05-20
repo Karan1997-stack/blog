@@ -19,31 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="minor commit">
-      <change afterPath="$PROJECT_DIR$/venv/Main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Main/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Post/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Post/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Post/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/User/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/User/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/User/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/User/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/5e55375c143cf148.jpg" afterDir="false" />
+    <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="Structure&#10; commit">
+      <change afterPath="$PROJECT_DIR$/venv/Errors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Errors/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/templates/errors/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/templates/errors/500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/route.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/venv/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/user_posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -141,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589793485365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Structure&#10; commit">
+      <created>1589976672509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589976672509</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,13 +150,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1st commit" />
     <MESSAGE value="minor commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor commit" />
+    <MESSAGE value="Structure&#10; commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure&#10; commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589639062871">
+    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589977544427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589639062871" />
+    <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589977544427" />
     <state x="754" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589866468629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -207,10 +198,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589640400067" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589793501930">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589976770604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589793501930" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589976770604" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589642180141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
