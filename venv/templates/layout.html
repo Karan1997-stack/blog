@@ -28,10 +28,10 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ url_for('main.home') }}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="{{ url_for('main.about') }}">About</a>
             </li>
             <!--<li class="nav-item">
               <a class="nav-item nav-link" href="/logout">Log out</a>
@@ -56,12 +56,12 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     {% if current_user.is_authenticated %}
-                    <a class="dropdown-item" href="/post/new">New Post</a>
-                    <a class="dropdown-item" href="/account">Account details</a>
-                    <a class="dropdown-item" href="/logout">Log Out</a>
+                    <a class="dropdown-item" href="{{ url_for('posts.new_post') }}">New Post</a>
+                    <a class="dropdown-item" href="{{ url_for('users.account') }}">Account details</a>
+                    <a class="dropdown-item" href="{{ url_for('users.logout') }}">Log Out</a>
                     {% else %}
-                    <a class="dropdown-item" href="/register">Register</a>
-                    <a class="dropdown-item" href="/login">Login</a>
+                    <a class="dropdown-item" href="{{ url_for('users.register') }}">Register</a>
+                    <a class="dropdown-item" href="{{ url_for('users.login') }}">Login</a>
                     {% endif %}
                 </div>
 
