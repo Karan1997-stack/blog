@@ -1,4 +1,36 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>About</h1>
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="./static/code.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm an aspiring web application developer</h3>
+</div>
+<br>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Why this project?</h3>
+  <p>I always aspired to share stories, curate them and present them in simple manner. While tons of better website exist like wordpress,medium etc there isn't go to site where you just write and share.
+  Further, I aim to enchance this project with ability to filter stories on their genre, improve the overall design and ability to share stories in an easier way.
+  You can help me and reach out to me, in case of bugs and issues. This is still a beta version.</p>
+</div>
+<br>
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>GitHub</p>
+        <a class="btn btn-social-icon btn-github" href="https://github.com/Karan1997-stack/blog">
+    <span class="fa fa-github"></span>
+  </a>
+    </div>
+    <div class="col-sm-6">
+      <p>Facebook</p>
+     <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/karan.madhyani">
+    <span class="fa fa-facebook"></span>
+  </a>
+    </div>
+  </div>
+</div>
 {% endblock content %}

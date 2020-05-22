@@ -6,7 +6,7 @@ from flask_login import  current_user
 from venv.models import User
 
 
-
+#http://anothertale28.pythonanywhere.com/home
 class RegistrationForm(FlaskForm):
     username=StringField('Username',validators=[DataRequired(),Length(min=2,max=25)])
     email=StringField('Email',validators=[DataRequired(),Email()])
