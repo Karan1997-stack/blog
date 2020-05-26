@@ -1,8 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
+<div class="container" align="center">
 <h1 class="mb-3">Posts by {{ user.username }} ({{posts.total }})</h1>
 {% for post in posts.items  %}
-<div class="container" align="center">
+
 
     <!-- Page Heading -->
     <h1 class="my-4">{{post.title}}
@@ -33,9 +34,9 @@
     </div>
 
 
-</div>
 
 
+<br>
 <!--<h2>{{post.title}}</h2>
 <p> By {{post.author}} on {{post.date_posted}} </p>
 <p> {{post.content}} </p>-->
@@ -55,3 +56,4 @@
 {% endif  %}
 {% endfor %}
 {% endblock content %}
+    </div>

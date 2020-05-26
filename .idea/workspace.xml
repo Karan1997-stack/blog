@@ -19,21 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="minor2&#10; commit">
-      <change afterPath="$PROJECT_DIR$/venv/static/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/2d15be65a868d6c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/templates/layout2.html" afterDir="false" />
+    <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="minor bug fixes">
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/0d86dda03069df8b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/1114b0c2f6cf721e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/38bb165f19845a8f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/68da64d9e76e761d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/cd16881ee7a8a469.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/post_pics/dbafa6d03a9b7999.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/profile_pics/0b5dfafb174d8910.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/templates/home2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/User/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/User/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/User/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/User/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/venv/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/static/main2.css" beforeDir="false" afterPath="$PROJECT_DIR$/venv/static/main2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/static/post_pics/blog_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/static/post_pics/blog_default.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/create_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/create_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/layout2.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/layout2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/user_posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +76,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\PycharmProjects\blogging1\venv\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\PycharmProjects\blogging1\venv" />
       <recent name="C:\Users\Dell\PycharmProjects\blogging1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\blogging1\venv\static" />
+      <recent name="C:\Users\Dell\PycharmProjects\blogging1\venv\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -148,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589979479204</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor bug fixes">
+      <created>1590136109526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590136109526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +180,8 @@
     <MESSAGE value="minor commit" />
     <MESSAGE value="Structure&#10; commit" />
     <MESSAGE value="minor2&#10; commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor2&#10; commit" />
+    <MESSAGE value="minor bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor bug fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589977544427">
@@ -216,10 +228,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589640400067" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589979501759">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590136123704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589979501759" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590136123704" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589642180141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,22 +1,24 @@
 {% extends "layout.html" %}
 {% block content %}
 {% for post in posts.items  %}
-<div class="container" align="center">
+
+
+<div class="container" align="center" >
 
     <!-- Page Heading -->
     <h1 class="my-4">{{post.title}}
     </h1>
 
+
     <!-- Project One -->
-    <div class="col-md-10">
+    <div class="col-md-8">
 
         <img class="img-fluid rounded mb-3 mb-md-0" src="{{ url_for('static',filename='post_pics/' + post.theme) }}"
              alt="">
         </a>
     </div>
     <br>
-    <div class="col-md-6">
-
+    <div class="col-md-8">
         <img class="rounded-circle article-img"
              src="{{ url_for('static',filename='profile_pics/' + post.author.image_file) }}">
         <h5>By <a href="{{url_for('users.user_posts',username=post.author.username) }}"> {{post.author.username }}</a> on
@@ -37,7 +39,8 @@
 <p> By {{post.author}} on {{post.date_posted}} </p>
 <p> {{post.content}} </p>-->
 {% endfor %}
-</div>
+
+
 <br>
 {% for page_num in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
 {% if page_num %}
@@ -51,5 +54,7 @@
 ...
 {% endif  %}
 {% endfor %}
+
 {% endblock content %}
 
+</div>
