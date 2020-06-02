@@ -3,7 +3,7 @@ from flask_login import current_user, login_required
 from venv import db
 from venv.models import Post
 from venv.Post.forms import PostForm
-from venv.User.utils import save_theme,save_picture,send_reset_email
+from venv.User.utils import save_theme,save_picture,send_reset_email,formatter
 
 posts = Blueprint('posts',__name__)
 
