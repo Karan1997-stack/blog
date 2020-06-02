@@ -1,29 +1,22 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="container" align="center">
+<div class="container text-center">
 <h1 class="mb-3">Posts by {{ user.username }} ({{posts.total }})</h1>
-{% for post in posts.items  %}
+
+<div class="row">
+
+    {% for post in posts.items  %}
 
 
-    <!-- Page Heading -->
-    <h1 class="my-4">{{post.title}}
-    </h1>
-
-    <!-- Project One -->
-    <div class="col-md-10">
-
-        <img class="img-fluid rounded mb-3 mb-md-0" src="{{ url_for('static',filename='post_pics/' + post.theme) }}"
-             alt="">
-        </a>
-    </div>
-    <br>
-    <div class="col-md-6">
-
-        <img class="rounded-circle article-img"
+   <div class="col-sm-6">
+      <img class="img-fluid rounded mb-3 mb-md-0" src="{{ url_for('static',filename='post_pics/' + post.theme) }}"
+             alt="Image">
+      <h1><em><strong>{{post.title}}</strong></em></h1><br>
+       <img class="rounded-circle article-img"
              src="{{ url_for('static',filename='profile_pics/' + post.author.image_file) }}">
         <h5>By <a href="{{url_for('users.user_posts',username=post.author.username) }}"> {{post.author.username }}</a> on
             {{post.date_posted.strftime('%Y-%m-%d') }}</h5>
-       <p>
+        <p>
             {% if post.content|length > 125 %}
             {{ post.content[0:125] }}<b>...</b>
             {% else %}
@@ -32,8 +25,7 @@
         </p>
         <a class="btn btn-primary" href="{{ url_for('posts.post',post_id=post.id) }}">View Post</a>
     </div>
-
-
+    <br>
 
 
 <br>
@@ -41,6 +33,7 @@
 <p> By {{post.author}} on {{post.date_posted}} </p>
 <p> {{post.content}} </p>-->
 {% endfor %}
+    </div>
 {% for page_num in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
 {% if page_num %}
 {% if posts.page == page_num %}
@@ -55,5 +48,6 @@
 ...
 {% endif  %}
 {% endfor %}
+
+</div>
 {% endblock content %}
-    </div>

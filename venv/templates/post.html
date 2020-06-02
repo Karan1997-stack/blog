@@ -20,7 +20,10 @@
              src="{{ url_for('static',filename='profile_pics/' + post.author.image_file) }}">
         <h5>By <a href="{{url_for('users.user_posts',username=post.author.username) }}"> {{post.author.username }}</a> on
             {{post.date_posted.strftime('%Y-%m-%d') }}</h5>
-        <p>{{post.content}}</p>
+        <blockquote class="blockquote">
+            <p class=".text-justify">
+            {{post.content}}
+        </p>
         {% if post.author==current_user %}
         <div>
             <a class="btn btn-secondary btn-sm m-3" href="{{ url_for('posts.update_post', post_id=post.id) }}">Update</a>

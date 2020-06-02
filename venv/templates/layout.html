@@ -62,13 +62,9 @@
       </div>
     </div>
   </nav>
-    <br><br><br>
 
 
 <div class="container">
-
-    <!-- Project One -->
-    <div class="row">
 
 <!--<div class="col-md-3">
             <br><br>
@@ -84,10 +80,6 @@
             </ul>
             </p>
         </div>-->
-
-        <div class="col-md-1">
-
-        </div>
         <div class="col-md-12">
             {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
@@ -98,10 +90,8 @@
             {% endfor %}
             {% endif %}
             {% endwith %}
-            {% block content%} {% endblock %}
+         {% block content%} {% endblock %}
         </div>
-
-    </div>
     <!--<footer class="py-2" style="background-color:#4B0080">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Another Tale 2020</p>
