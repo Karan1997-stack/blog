@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="front end overhaul commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="minor commit">
       <change beforePath="$PROJECT_DIR$/venv/Post/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Post/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/User/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/User/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/venv/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591097349957</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minor commit">
+      <created>1591105253590</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591105253590</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,13 +182,13 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1st commit" />
-    <MESSAGE value="minor commit" />
     <MESSAGE value="Structure&#10; commit" />
     <MESSAGE value="minor2&#10; commit" />
     <MESSAGE value="minor bug fixes" />
     <MESSAGE value="Layout commit" />
     <MESSAGE value="front end overhaul commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="front end overhaul commit" />
+    <MESSAGE value="minor commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589977544427">
