@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfea76d4-1136-464b-9164-076977753d7a" name="Default Changelist" comment="minor commit">
-      <change beforePath="$PROJECT_DIR$/venv/Post/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Post/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/user_posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591105253590</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="minor commit">
+      <created>1591105281636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591105281636</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,10 +248,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589640400067" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591097369485">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591105299575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591097369485" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591105299575" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589642180141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
